@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 
 app.post("/data", (req, res) => {
   const body = req.body;
-  res.send(`Hello, ${body.name}`);
+  res.send(`Bye, ${body.name}`);
 });
 
 app.listen(PORT, () => {
